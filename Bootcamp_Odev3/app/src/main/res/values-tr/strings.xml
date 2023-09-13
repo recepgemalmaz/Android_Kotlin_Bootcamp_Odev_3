@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">FENERBAHCE</string>
+        <string name="oyuncuBaslik">#10 Dusan Tadic</string>
+        <string name="dogumTarihi">D.Tarihi: 20.11.88</string>
+        <string name="yasBoy">Yaş - Boy: 34 / 1,81</string>
+        <string name="degeri">Değeri: 6 Milyon $</string>
+        <string name="mevki">Mevki: Sol Kanat</string>
+        <string name="dogumYeri">D.Yeri: Yugoslavya</string>
+        <string name="haberler">Haberler</string>
+        <string name="maclar">Maçlar</string>
+        <string name="sadakat">Sadakat</string>
+        <string name="stadyum">Stadyum</string>
+        <string name="transferGecmisiButton">Transfer Geçmişi</string>
+        <string name="istatistikButton">Ayrıntılı İstatistik</string>
+        <string name="oyuncuAciklama">Profesyonel futbolcu Dusan Tadic\'in AFC Ajax
+            klübünden, kulübümüze transferi konusunda kendisi ile anlaşmaya varılmıştır.
+            Futbolcuya sezonluk 4.2 milyon $ ödenecektir.</string>
+
+</resources>

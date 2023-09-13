@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">FENERBAHCE</string>
+    <string name="oyuncuBaslik">#10 Dusan Tadic</string>
+    <string name="dogumTarihi">D.Birth: 20.11.88</string>
+    <string name="yasBoy">Age-Height:34/1.81</string>
+    <string name="degeri">Value: $6 Million</string>
+    <string name="mevki">Position: Left Wing</string>
+    <string name="dogumYeri">P.Birth: Yugoslavia</string>
+    <string name="haberler">News</string>
+    <string name="maclar">Matches</string>
+    <string name="sadakat">Loyalty</string>
+    <string name="stadyum">Stadium</string>
+    <string name="transferGecmisiButton">Transfers    History</string>
+    <string name="istatistikButton">Detailed Statistics</string>
+    <string name="oyuncuAciklama">Professional football player Dusan Tadic has reached an agreement for his transfer from AFC Ajax to our club. He will be paid $4.2 million for the season.</string>
+
+
+</resources>

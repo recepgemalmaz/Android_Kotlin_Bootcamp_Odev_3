@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#0055A4</color>
+
+    <color name="kirmizi">#b22222</color>
+    <color name="sari">#0055A4</color>
+    <color name="acikSari">#FDFADA</color>
+    <color name="lacivert">#FFFF00</color>
+
+    <color name="acikLacivert">#F0F8FF</color>
+    <color name="yesil">#006400</color>
+    <color name="koyuLacivert">#000080</color>
+
+    <color name="yaziRenk1">#FFFFFF</color>
+    <color name="yaziRenk2">#636363</color>
+
+</resources>

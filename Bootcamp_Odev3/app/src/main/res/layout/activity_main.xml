@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip25"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/dogumTarihi"
+        android:textAlignment="center"
+        android:textColor="@color/lacivert"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:chipStrokeColor="@color/lacivert"
+        app:layout_constraintBottom_toTopOf="@+id/chip31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip28"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/yasBoy"
+        android:textAlignment="center"
+        android:textColor="@color/lacivert"
+        android:textSize="20sp"
+        app:chipBackgroundColor="@color/sari"
+        app:chipStrokeColor="@color/lacivert"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/chip29" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip29"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/degeri"
+        android:textAlignment="center"
+        android:textColor="@color/lacivert"
+        android:textSize="20sp"
+        app:chipBackgroundColor="@color/sari"
+        app:chipStrokeColor="@color/lacivert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/chip30" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip30"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/mevki"
+        android:textAlignment="center"
+        android:textColor="@color/lacivert"
+        android:textSize="20sp"
+        app:chipBackgroundColor="@color/sari"
+        app:chipStrokeColor="@color/lacivert"
+        app:layout_constraintBottom_toTopOf="@+id/chip29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/chip31" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip31"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/dogumYeri"
+        android:textAlignment="center"
+        android:textColor="@color/lacivert"
+        android:textSize="20sp"
+        app:chipBackgroundColor="@color/sari"
+        app:chipStrokeColor="@color/lacivert"
+        app:layout_constraintBottom_toTopOf="@+id/chip30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/chip25" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/lacivert"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pacifico"
+            android:text="Fenerbahçe"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            tools:layout_editor_absoluteX="174dp"
+            tools:layout_editor_absoluteY="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="14dp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/oyuncuBaslik"
+        android:textColor="@color/lacivert"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chip25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="273dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/yenitadicicgorsel_2"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="398dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:justificationMode="inter_word"
+        android:text="@string/oyuncuAciklama"
+        android:textColor="@color/lacivert"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip28" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip43"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/lacivert"
+        android:text="@string/haberler"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:chipBackgroundColor="@color/lacivert"
+        app:chipStrokeColor="@color/sari"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chip40"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip40"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/lacivert"
+        android:text="@string/maclar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:chipBackgroundColor="@color/lacivert"
+        app:chipStrokeColor="@color/sari"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chip41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip43" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip41"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/lacivert"
+        android:text="@string/sadakat"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:chipBackgroundColor="@color/lacivert"
+        app:chipStrokeColor="@color/sari"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chip42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip40" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip42"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/lacivert"
+        android:text="@string/stadyum"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:chipBackgroundColor="@color/lacivert"
+        app:chipStrokeColor="@color/sari"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip41" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="171dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/transferGecmisiButton"
+        android:textColor="@color/lacivert"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chip40"
+        app:layout_constraintEnd_toStartOf="@+id/button13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="171dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/sari"
+        android:text="@string/istatistikButton"
+        android:textColor="@color/lacivert"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chip41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
